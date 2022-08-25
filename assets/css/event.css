@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.event-page {
+    display: flex;
+    margin-left: 30px;
+}
+.event-page img {
+    max-width: 394px;
+    max-height: 495px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+
+.event-page-description-tittle {
+    margin-bottom:20px;
+    max-width:220px;
+    max-height: 186px;
+}
+.event-page-author {
+    margin-top: 58px ;
+}
+.event-page-ra-fb-events {
+    margin-top: 50px;
+}
+.event-page-ra-fb-events p {
+    line-height: 25.94px;
+    font-weight: 450;
+    font-size: 20px;
+    font-style: italic;
+}
+.ra-fb-events p {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 450;
+}
+.event-page-right-text {   
+    margin-right: 30px;
+}
+.event-page-right-text p{
+   max-width:298px;
+}
+
+
+.event-page-right-text-tittle {
+    margin-bottom: 42px;
+}
+.enternace-fee, .doors, .age{
+    margin-top: 37px;
+}
+.view-upcomming-events {
+    margin-top: 100px;
+}
+
+.view-upcomming-events p {
+    font-size: 24px;
+    font-weight: 450;
+    line-height: 31.13px;
+}
+
+
+
+/*------------------- single blog page ------------------ */
+
+.blog-box {
+    margin-left: 38px;
+    margin-top: 60px;
+}
+.blog-post-description img {
+    max-width: 756px;
+    max-height: 318px;
+}
+.blog-post-description-tittle {
+    font-weight: 450;
+    font-size: 28px;
+    line-height: 36.31px;
+}
+.blog-post-description-date {
+    font-size: 22px;
+    line-height: 22.53px;
+    font-weight: 450;
+}
+ .blog-post-description-about {
+    max-width: 752px;
+    margin-top: 8px;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 25.94px;
+ }
+ .blog-post-description-about-2 {
+    margin-top: 20px;
+    max-width: 752px;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 25.94px;
+
+ }
+
+.blog-post-description-author {
+    margin-top: 17px;
+    margin-bottom: 42px;
+    font-size: 10px;
+    line-height: 12.97px;
+    font-weight: 450;
+}
+
+
+
+
+
+
+/* -----------blog------------------- */
+
+.blog-post-items {
+    margin-left: 38px;
+    margin-right: 76px;
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.blog-item {
+    margin-bottom: 40px;
+}
+.blog-item p {
+    max-width: 416px;
+    font-size: 22px;
+    line-height: 28.53px;
+}
+.blog-item img {
+    max-width: 416px;
+    max-height: 185px;
+    margin-top: 7px;
+}
+
+
+
+
+
+
+
+
+
+/* -----------blog------------------- */
+
+
+
+
+/* -----------media quaires part ------------- */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .event-page {
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .event-page img {
+        max-width: 100%;
+        width: 100%;
+    }
+    .event-page-description {
+        margin-left: 24px;
+        margin-top: 23px;
+    }
+    .event-page-ra-fb-events {
+        display: flex;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .event-page-author {
+        margin-top: 10px;
+    }
+    .fb-events  {
+        padding-left: 20px;
+        
+    }
+    .event-page-right-text {
+        margin-left: 24px;
+    }
+    .view-upcomming-events {
+        margin-top: 15px;
+    }
+    .enternace-fee, .age, .doors {
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* -----------media quaires part ------------- */
