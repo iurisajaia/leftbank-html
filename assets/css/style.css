@@ -1,0 +1,148 @@
+body{
+    margin:0 38px;
+}
+@font-face {
+    src: url("../fonts/SuisseIntl-Book.ttf");
+    font-family: Suisee;
+}
+*{
+    font-family: Suisee;
+    font-weight: 450;
+}
+.d-flex{
+    display: flex;
+}
+/*---------logo-socmedia-wrapper-part start--------*/
+.logo-socmedia-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0px ;
+}
+.logo-part>img{
+    height: 63.25999450683594px;
+    width: 136.3699951171875px;
+    left: 38px;
+    top: 32px;
+    border-radius: 0px;
+}
+.soc-media-item{
+    margin: 0px 10px;
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+/*---------logo-socmedia-wrapper-part end--------*/
+/*---------nav-part start--------*/
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-item{
+    margin: 0px 35px;
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none;
+}
+.active{
+    text-decoration: underline;
+    margin-left: 0px;
+    color: black!important;
+}
+/*---------nav-part end--------*/
+/*---------search-part end--------*/
+.your-key-word{
+    text-decoration: underline;
+    margin-left:5px!important;
+}
+.search-results{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.d-flex>p{
+    margin: 0;
+}
+.search-key-word{
+    margin: 47px 0 79px 0;
+
+}
+.search-results-item{
+    width: 100%;
+    max-width: 326px;
+    line-height: 26px;
+    margin-bottom: 76px;
+}
+.search-results-item>h4{
+    margin: 0px;
+    font-size: 28px;
+    line-height: 36px;
+}
+.search-results-item i{
+    margin-right: 5px;
+    font-size: 18px;
+}
+/*---------search-part end--------*/
+
+/*---------week-event-lits-part-start--------*/
+.week-event-lits{
+    text-transform: capitalize;
+}
+.week-event-list-item{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.week-event-list-heading{
+    margin: 0 0;
+}
+/*---------week-event-lits-part end--------*/
+/*---------archive-part start--------*/
+.archive{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.archive .search-results-item{
+    max-width: 264px;
+}
+.calendar{
+    margin: 32px 0px 73px 0px ;
+}
+.years-part{
+    margin-bottom: 5px;
+}
+.years-part>p, .months-part>p{
+    margin-right: 25px;
+    color: #636466;
+    text-transform: capitalize;
+}
+.active-year{
+    color: black!important;
+}
+.marg-144{
+    margin-right: 144px;
+}
+/*---------archive-part end--------*/
+/*---------collective-part start--------*/
+.collective{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 145px;
+}
+.collective>a{
+    width: 25%;
+    margin:0 0 166px 0;
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+/*---------collective-part end--------*/
+
+/*---------footer-part start-------*/
+.footer-part-item{
+    margin: 0 0 3px 0;
+    text-transform:capitalize;
+}
+/*---------footer-part end--------*/
+
+
+
