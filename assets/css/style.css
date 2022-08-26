@@ -12,6 +12,17 @@ body{
 .d-flex{
     display: flex;
 }
+.show-mobile{
+    display: none;
+}
+.show-desktop{
+    display: inline-block!important;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+}
 /*---------logo-socmedia-wrapper-part start--------*/
 .logo-socmedia-wrapper{
     display: flex;
@@ -143,6 +154,47 @@ nav{
     text-transform:capitalize;
 }
 /*---------footer-part end--------*/
-
+@media screen and (max-width: 768px){
+    body{
+        margin: 32px 21px 37px 21px;
+    }
+    .soc-media-part{
+        display: flex;
+        flex-direction: column;
+    }
+    .soc-media-part a{
+        margin-bottom: 5px;
+    }
+    .show-mobile{
+        display: block!important;
+    }
+    .show-desktop{
+        display: none!important;
+    }
+    .navbar {
+        flex-wrap: wrap;
+    }
+    .navbar-item{
+        margin: 0;
+    }
+    .months-part{
+        flex-wrap: wrap;
+    }
+    .months-part >p{
+        margin-bottom: 5px;
+    }
+    .week-event-lits{
+        margin-bottom: 63px;
+    }
+    .collective{
+        flex-direction: column;
+        margin: 20px 0 102px 0;
+    }
+    .collective>a{
+        width: 100%;
+        margin: 55px 0 0 0;
+    }
+  
+}
 
 

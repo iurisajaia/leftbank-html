@@ -5,6 +5,9 @@
 html {
     overflow-x: hidden;
 }
+body{
+    margin: 38px;
+}
 
 .container {
     display: flex;
@@ -123,12 +126,12 @@ html {
 /* -----------blog------------------- */
 
 .blog-post-items {
-    margin-left: 38px;
-    margin-right: 76px;
+    width: 100%;
     margin-top: 34px;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     flex-wrap: wrap;
+    
 }
 .blog-item {
     margin-bottom: 40px;
@@ -195,12 +198,24 @@ html {
     .enternace-fee, .age, .doors {
         margin-top: 10px;
     }
+    .event-page-right-text-tittle {
+        font-size: 28px;
+        font-weight: 450;
+        line-height: 28.53px;
+    }
 }
 
 
 
-
-
+/* ------------blog single html ------------------ */
+ .blog-post-description-tittle {
+    max-width: 349px;
+    max-height: 119px;
+ }
+.blog-post-description img {
+    margin: 0;
+    max-width: 100%;
+}
 
 
 
